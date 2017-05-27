@@ -1,0 +1,3 @@
+[submodule "monky"]
+	path = monky
+	url = https://github.com/monky-hs/monky
