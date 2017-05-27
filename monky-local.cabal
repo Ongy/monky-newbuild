@@ -1,0 +1,15 @@
+name: monky-local
+version: 0.1
+synopsis: The local monky config
+license: LGPL
+author: ongy
+maintainer: ongy <ongy@ongy.net>
+build-type: Simple
+cabal-version: >=1.8
+
+executable monky-local
+  main-is: Main.hs
+  hs-source-dirs: normal
+  ghc-options: -Wall
+  build-depends: monky, text, base
+  default-extensions: OverloadedStrings
