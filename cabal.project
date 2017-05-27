@@ -1,1 +1,6 @@
 packages: ./ monky/
+
+package monky
+  flags: +ibus
+
+jobs: $ncpus
